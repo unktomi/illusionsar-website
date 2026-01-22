@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>IllusionsAR</title>
+	<script type="text/javascript" src="scripts/index.js"></script>
+	<link href="CSS/mobile.css" rel="stylesheet" type="text/css" />
+	<link href="CSS/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="docbody">
+	<div class="mContent">
+		
+		<div id="form" class="formfun">
+			<div class="formStyle">
+				<div class="formTitle">
+					<div>
+						<span class="formHeader" id="formheader">Illusions Teams</span>
+					</div>
+					
+					<div class="closeBox"><a href="javascript:;" onClick="formVis(false);">&times;</a></div>
+				</div>
+				
+				<form onsubmit="return submitMessage(event)">
+					<div class="inner-wrap">
+						<label>Your Full Name <input type="text" id="fname" name="name" /></label>
+						<label>Email Address <input type="email" id="femail" name="email" /></label>
+						<label>Message <textarea name="message" id="fmessage" rows="5"></textarea></label>
+					</div>
+					
+					<div class="button-section">
+						<input type="submit" name="submit" value="SEND" />
+						<span class="newsupdates">
+							<input type="checkbox" name="news">Receive New &amp; Updates 
+						</span>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		<div class="tb">
+			<div class="titlebar">
+				<div></div>
+				<div class="logo"><img src="images/IAR.png" width="42" height="50" alt=""/></div>
+				<div class="iar"><div class="linkText">Illusions AR</div></div>
+				<div class="share"><div class="linkText"><a href="#share">CREATE</a></div></div>
+				<div class="apps"><div class="linkText"><a href="#apps">APPS</a></div></div>
+				<div class="tools"><div class="linkText"><a href="#tools">TOOLS</a></div></div>
+				<div class="part"><div class="linkText"></div></div>
+				<div class="contact">
+					<!-- <a href="javascript:;" onClick="setHeaderText('Contact Us', 'Contact');"><button type="button" class="button">CONTACT</button></a> -->
+				</div>
+			</div>
+		</div>
+
+		<!-- Title Bar END -->
+		<!-- Splash header -->
+
+		<div class="sh">
+			<div class="splash">
+				<div class="splashimage"></div>
+				<div class="splashTextHeader">Augmenting the World<br>
+					<div class="splashText">Illusions AR - Shared Augmented Reality</div>
+				</div>
+				
+				<div class="socialLinks">
+					<div class="socialGrid">
+						<div><a href="https://www.linkedin.com/company/badnano/" target="_blank"><button type="button" class="buttonBlue"><img src="images/lnkin.png" width="45" height="45" alt=""/></button></a></div>
+						<div><a href="https://www.facebook.com/badnanocorp/" target="_blank"><button type="button" class="buttonRed"><img src="images/facbk.png" width="45" height="45" alt=""/></button></a></div>
+						<div><a href="https://twitter.com/illusionsar/" target="_blank"><button type="button" class="buttonBlue"><img src="images/twit.png" width="45" height="45" alt=""/></button></a></div>
+						<div><a href="https://www.instagram.com/illusions.ar/" target="_blank"><button type="button" class="buttonRed"><img src="images/insta.png" width="45" height="45" alt=""/></button></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Shared Worlds -->
+
+		<a name="share"></a>
+		<div class="sw">
+			<div class="heading" style="color:#E9E9E9;">Create Worlds</div>
+
+			<div class="container">
+				<div class="swcontent">
+					<div class="tile">
+						<div class="title">Place</div>
+							<div class="media"><img src="images/SW00.png" width="600" height="300" alt=""/></div>
+						<div class="description">Place Illusions anywhere in the world directly from within the Illusions AR app; you'll have full control orientation, height, and location.</div>
+					</div>
+
+					<div class="tile" style="left:670px">
+						<div class="title">Customize</div>
+							<div class="media"><img src="images/SW01.png" width="600" height="300" alt=""/></div>
+						<div class="description">Explore different ways to customize Illusions, from messages on signs, emojis on balloons, images on billboards, and much more.</div>
+					</div>
+
+					<!-- next row -->
+
+					<div class="tile" style="top:488px;">
+						<div class="title">Discover</div>
+							<div class="media"><img src="images/SW02.png" width="600" height="300" alt=""/></div>
+						<div class="description">Join the multiple worlds within Illusion AR, once connected you'll be able to view and interact with all the content within that channel.</div>
+					</div>
+
+					<div class="tile" style="top:488px; left:670px;">
+						<div class="title">Share</div>
+							<div class="media"><img src="images/SW03.png" width="600" height="300" alt=""/></div>
+						<div class="description">Instantly place Illusions that will be shared with everyone following your channel to experience, like, play, comment.</div>
+					</div>
+
+					<!-- next row -->
+
+					<div class="tile" style="top:912px;">
+						<div class="title">Play</div>
+							<div class="media"><img src="images/SW04.png" width="600" height="300" alt=""/></div>
+						<div class="description">Fully interactive realtime single and multiplayer gaming. Don’t just play one game when you can play any number at the same time!</div>
+					</div>
+
+					<div class="tile" style="top:912px; left:670px;">
+						<div class="title">Collect</div>
+							<div class="media"><img src="images/SW05.png" width="600" height="300" alt=""/></div>
+						<div class="description">Collect points located within the real world. Spend them points on Illusions. Every step counts!</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Shared Worlds END-->
+		<!-- Augmented Applications -->
+
+		<a name="apps"></a>
+		<div class="aa">
+			<div class="heading" style="color:#E9E9E9;">Augmented Applications</div>
+
+			<div class="aacontainer">
+				<div class="aacontent">
+					<div class="tileMED">
+						<div class="titlePAK">Walking Directions</div>
+							<div class="media"><img src="images/AA00.png" width="600" height="300" alt=""/></div>
+						<div class="descriptionPAK">Enter any destination to display real-time 3D augmented turn-by-turn directions, visualize every turn aligned to the real-world.</div>
+					</div>
+
+					<div class="tileSML">
+						<div class="titlePAK">Photo &amp; Video</div>
+							<div class="mediaSML"><img src="images/AA01.png" width="300" height="300" alt=""/></div>
+						<div class="descriptionPAK">Take photos and videos to share with friends everywhere.</div>
+					</div>
+
+					<div class="tileSML">
+						<div class="titlePAK">Tagged locations</div>
+							<div class="mediaSML"><img src="images/AA02.png" width="300" height="300" alt=""/></div>
+						<div class="descriptionPAK">Visualize all points of interest around you. Plus user reviews.</div>
+					</div>
+
+					<!-- next row -->
+
+					<div class="tileMED">
+						<div class="titlePAK">Ride Share</div>
+							<div class="media"><img src="images/AA03.png" width="600" height="300" alt=""/></div>
+						<div class="descriptionPAK">Order and observe your incoming ride as it approaches, view every turn along with full details of your driver, including estimated time of arrival.</div>
+					</div>
+
+					<div class="tileSML">
+						<div class="titlePAK">Skywriter</div>
+							<div class="mediaSML"><img src="images/AA04.png" width="300" height="300" alt=""/></div>
+						<div class="descriptionPAK">Leave messages in the clouds for all your connected friends.</div>
+					</div>
+
+					<div class="tileSML">
+						<div class="titlePAK">More...</div>
+							<div class="mediaSML"><img src="images/AA05.png" width="300" height="300" alt=""/></div>
+						<div class="descriptionPAK">Download to discover more Apps within IllusionsAR</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Augmented Applications END -->
+		<!-- Enhanced Tools -->
+
+		<a name="tools"></a>
+		<div class="et">
+			<div class="heading" style="color:#E9E9E9;">Enhanced Tools</div>
+			
+			<div class="etcontainer">
+				<div class="etcontent">
+					<div class="tileLRG">
+						<div class="titlePAK">Highest Quility Tools</div>
+							<div class="mediaLRG"><div class="imageLRG"></div></div>
+						<div class="descriptionPAK">Enhanced version of the award-winning Unreal Engine 4 (by Epic Game) engine focused around mobile Augmented Reality development. The Illusions Plug-ins enables creators to bring any Map/Level directly to augmented reality, no advanced SDK's or development licenses required.</div>
+					</div>
+
+					<!-- next row -->
+
+					<div class="tileMED">
+						<div class="titlePAK">Advanced Features</div>
+							<div class="media"><img src="images/ET01.png" width="600" height="300" alt=""/></div>
+						<div class="descriptionPAK">Enhanced features for Unreal Engine 4 on mobile, including image-based lighting (day/night), level streaming, multiplayer, social, and much more...</div>
+					</div>
+
+					<div class="tileSML">
+						<div class="titlePAK">Cloud</div>
+							<div class="mediaSML"><img src="images/ET02.png" width="300" height="300" alt=""/></div>
+						<div class="descriptionPAK">One-click multiplatform deployment to the Illusions AR cloud.</div>
+					</div>
+
+					<div class="tileSML">
+						<div class="titlePAK">Crossplatform</div>
+							<div class="mediaSML"><img src="images/ET03.png" width="300" height="300" alt=""/></div>
+						<div class="descriptionPAK">Shared world content on both iPhone and Android devices.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Enhanced Tools END -->
+		<!-- Footer -->
+
+		<div class="ft">
+			<div class="footer">
+				<div class="ft00">
+					<img src="images/IAR.png" width="42" height="50" alt=""/>
+				</div>	
+
+				<div class="ft00">
+				<!--	
+					<a href="https://itunes.apple.com/us/app/apple-store/id1437700689?ls=1" target="_blank">iPhone</a><br>
+					<a href="https://play.google.com/apps/testing/com.d6.illusionsar" target="_blank">Android Beta</a><br>
+					<a href="javascript:;" onClick="setHeaderText('Contact Tools Team', 'Tools');">Developer Tools</a> 
+				-->
+					<a href="mailto:info@badnano.com?subject=IllusionsAR" target="_blank" rel="noopener noreferrer">Contact Us</a>
+				</div>	
+
+				<div class="ft00">
+				<!--
+					<a href="https://www.facebook.com/badnanocorp/" target="_blank">Facebook</a><br>
+					<a href="https://www.instagram.com/illusions.ar/" target="_blank">Instagram</a><br>
+					<a href="https://twitter.com/illusionsar/" target="_blank">Twitter</a>
+				-->
+				</div>	
+
+				<div class="ft00">
+				<!--
+					<font color="#885858"><s>User Guide</s></font><br>
+					<font color="#885858"><s>FAQ</s></font><br>
+					<a href="javascript:;" onClick="setHeaderText('Contact Creative Team', 'Creative');">Creatives</a><br>
+					<a href="javascript:;" onClick="setHeaderText('Contact Support', 'Support');">Support</a><br>
+					<a href="javascript:;" onClick="setHeaderText('Contact Us', 'Contact');">Contact</a>
+				-->
+					<a href="https://www.facebook.com/badnanocorp/" target="_blank">Facebook</a><br>
+					<a href="https://www.instagram.com/illusions.ar/" target="_blank">Instagram</a><br>
+					<a href="https://twitter.com/illusionsar/" target="_blank">Twitter</a>
+				</div>
+
+				<div class="ft01">
+					Illusions AR / <a href="http://www.badnano.com" target="_blank">Badnano Corporation</a> / <a href="https://www.google.com/maps/place/Sunnyvale,+CA" target="_blank">California</a> / <a href="http://www.badnano.com/terms_privacy/terms-conditions-english.html" target="_blank">Terms and Conditions</a> / <a href="http://www.badnano.com/terms_privacy/privacy-policy-english.html" target="_blank">Privacy Policy</a><br>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+	
+</html>
